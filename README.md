@@ -1,0 +1,2 @@
+# Uninitialized Property Access in C# 
+This example demonstrates a common issue in C#: accessing properties that haven't been explicitly initialized. Depending on context this may throw an exception or return a default value, potentially leading to unexpected behavior or hard-to-debug errors. The solution shows how to avoid this by initializing the property.
